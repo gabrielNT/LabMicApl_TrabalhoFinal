@@ -1,14 +1,14 @@
 #include <Stepper.h>
-#define STEPS 200
+#define STEPS 100
 
-Stepper stepper(STEPS, 5, 4, 3, 2);
+Stepper stepper(STEPS, 8, 9, 11, 10);
 
 void setup() {
-  stepper.setSpeed(60);
+  stepper.setSpeed(100);
 
 }
 
 void loop() {
-  stepper.step(200);
+  stepper.step(-100);
 
 }
