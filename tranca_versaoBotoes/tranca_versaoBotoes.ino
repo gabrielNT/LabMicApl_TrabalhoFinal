@@ -24,7 +24,7 @@ int pushCounter = 0;
 int passButton[4] = {13,12,7,6};
 
 int button = 4;
-int buzzer = 3;
+int buzzer = 2;
 int touchSensor = 1;
 Stepper motor(STEPS,8, 9,11,10);
 rgb_lcd passwordDisplay;
@@ -102,7 +102,13 @@ void loop()
                 passwordDisplay.clear();
                 passwordDisplay.print("Intruso! Intruso!");
                 passwordDisplay.setRGB(255,0,0);
+                digitalWrite(buzzer, HIGH);
+                delay(20);
+                digitalWrite(buzzer, LOW);
                 delay(500);
+                digitalWrite(buzzer, HIGH);
+                delay(20);
+                digitalWrite(buzzer, LOW);
                 passwordDisplay.setRGB(0,0,0);
                 delay(500);
               }
@@ -136,7 +142,11 @@ void loop()
           {
             Serial.println(k+1);
             inputPassword[pushCounter] = k+1;
-            digitalWrite(buzzer,HIGH);
+            // Make a beep in the buzzer
+            analogWrite(buzzer, 50);
+            delay(20);
+            digitalWrite(buzzer, LOW);
+            delay(20);
             pushCounter++;
             lastStateButton[k] = 1;
             break;
@@ -147,8 +157,6 @@ void loop()
         }      
       }
       break;
-      
-      
       
     case Opening:
       motor.step(100);
@@ -163,6 +171,3 @@ void loop()
     
   }
 }
-
-
-
