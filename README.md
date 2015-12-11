@@ -1,3 +1,7 @@
+# Desenvolvedores
+* Gabriel Tutui RA 558290
+* Guilherme Ramos RA 558303
+
 # LabMicApl - Trabalho Final
 Repositório do Trabalho final da disciplina Laboratório de Microcontroladores e Aplicações. 
 
