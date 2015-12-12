@@ -52,3 +52,24 @@ Vídeo do projeto em execução:
 Foto do protótipo do projeto:
 
 ![alt text](https://github.com/gabrielNT/LabMicApl_TrabalhoFinal/blob/master/Imagens/fotoProjeto.jpg "Protótipo")
+
+# Outros projetos dessa disciplina:
+* https://github.com/jblsouza/Lab-Mic-A
+
+* https://github.com/iksmada/TuringMachine
+
+* https://github.com/Fonseka100/MIC-Amaciante
+
+* https://github.com/matheusvervloet/girassolar
+
+* https://github.com/alex-dias/TrabalhoFinalMIC2015
+
+* https://github.com/gustavocesarlos/trabalhofinalMic
+
+* https://github.com/gabrielNT/LabMicApl_TrabalhoFinal
+
+* https://github.com/brunowilliamsap/microcontroladores
+
+* https://github.com/rodrigoa1990/Projeto-Microcontroladores
+
+* https://github.com/matheusDeAlmeida/trabalhoFinalMicrocontroladores
