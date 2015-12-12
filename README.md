@@ -66,7 +66,7 @@ Foto do protótipo do projeto:
 
 * https://github.com/gustavocesarlos/trabalhofinalMic
 
-* https://github.com/gabrielNT/LabMicApl_TrabalhoFinal
+* https://github.com/Power041/cancela
 
 * https://github.com/brunowilliamsap/microcontroladores
 
